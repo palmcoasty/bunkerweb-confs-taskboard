@@ -217,6 +217,24 @@
       "column": "low",
       "tags": ["template"],
       "created": "2026-03-25"
+    },
+    {
+      "id": "bwcg-025",
+      "title": "Add Mattermost template",
+      "description": "-",
+      "priority": "planned",
+      "column": "low",
+      "tags": ["template"],
+      "created": "2026-03-25"
+    },
+    {
+      "id": "bwcg-026",
+      "title": "Add Cells by Pudio template",
+      "description": "-",
+      "priority": "planned",
+      "column": "low",
+      "tags": ["template"],
+      "created": "2026-03-25"
     }
   ]
 }
