@@ -154,6 +154,33 @@
       "column": "planned",
       "tags": ["template"],
       "created": "2026-03-25"
+    },
+    {
+      "id": "bwcg-018",
+      "title": "Add Mastodon template",
+      "description": "-",
+      "priority": "low",
+      "column": "planned",
+      "tags": ["template"],
+      "created": "2026-03-25"
+    },
+    {
+      "id": "bwcg-019",
+      "title": "Add Misskey template",
+      "description": "-",
+      "priority": "low",
+      "column": "planned",
+      "tags": ["template"],
+      "created": "2026-03-25"
+    },
+    {
+      "id": "bwcg-020",
+      "title": "Add Pixelfed template",
+      "description": "-",
+      "priority": "planned",
+      "column": "low",
+      "tags": ["template"],
+      "created": "2026-03-25"
     }
   ]
 }
