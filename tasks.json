@@ -7,7 +7,7 @@
       "title": "Add Synapse template",
       "description": "Create a BunkerWeb template for Synapse (Matrix homeserver). Needs federation endpoint proxying, WebSocket support for the client-server API, and correct headers for the .well-known discovery routes.",
       "priority": "high",
-      "column": "inprogress",
+      "column": "blocked",
       "tags": ["template"],
       "created": "2026-03-13"
     },
