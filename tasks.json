@@ -109,6 +109,51 @@
       "column": "done",
       "tags": ["template"],
       "created": "2026-03-25"
+    },
+    {
+      "id": "bwcg-013",
+      "title": "Add Drupal template",
+      "description": "-",
+      "priority": "low",
+      "column": "done",
+      "tags": ["template"],
+      "created": "2026-03-25"
+    },
+    {
+      "id": "bwcg-014",
+      "title": "Add Ghost template",
+      "description": "-",
+      "priority": "low",
+      "column": "done",
+      "tags": ["template"],
+      "created": "2026-03-25"
+    },
+    {
+      "id": "bwcg-015",
+      "title": "Add Typebot template",
+      "description": "-",
+      "priority": "low",
+      "column": "done",
+      "tags": ["template"],
+      "created": "2026-03-25"
+    },
+    {
+      "id": "bwcg-016",
+      "title": "Add Dify AI template",
+      "description": "-",
+      "priority": "medium",
+      "column": "done",
+      "tags": ["template"],
+      "created": "2026-03-25"
+    },
+    {
+      "id": "bwcg-017",
+      "title": "Add DocuSeal template",
+      "description": "-",
+      "priority": "medium",
+      "column": "done",
+      "tags": ["template"],
+      "created": "2026-03-25"
     }
   ]
 }
