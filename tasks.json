@@ -190,6 +190,24 @@
       "column": "low",
       "tags": ["template"],
       "created": "2026-03-25"
+    },
+    {
+      "id": "bwcg-022",
+      "title": "Add ClassicPress template",
+      "description": "-",
+      "priority": "planned",
+      "column": "low",
+      "tags": ["template"],
+      "created": "2026-03-25"
+    },
+    {
+      "id": "bwcg-023",
+      "title": "Add Joomla template",
+      "description": "-",
+      "priority": "planned",
+      "column": "low",
+      "tags": ["template"],
+      "created": "2026-03-25"
     }
   ]
 }
