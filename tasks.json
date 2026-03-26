@@ -106,7 +106,7 @@
       "title": "Add Chatwoot template",
       "description": "-",
       "priority": "high",
-      "column": "done",
+      "column": "planned",
       "tags": ["template"],
       "created": "2026-03-25"
     },
@@ -115,7 +115,7 @@
       "title": "Add Drupal template",
       "description": "-",
       "priority": "low",
-      "column": "done",
+      "column": "planned",
       "tags": ["template"],
       "created": "2026-03-25"
     },
@@ -124,7 +124,7 @@
       "title": "Add Ghost template",
       "description": "-",
       "priority": "low",
-      "column": "done",
+      "column": "planned",
       "tags": ["template"],
       "created": "2026-03-25"
     },
@@ -133,7 +133,7 @@
       "title": "Add Typebot template",
       "description": "-",
       "priority": "low",
-      "column": "done",
+      "column": "planned",
       "tags": ["template"],
       "created": "2026-03-25"
     },
@@ -142,7 +142,7 @@
       "title": "Add Dify AI template",
       "description": "-",
       "priority": "medium",
-      "column": "done",
+      "column": "planned",
       "tags": ["template"],
       "created": "2026-03-25"
     },
@@ -151,7 +151,7 @@
       "title": "Add DocuSeal template",
       "description": "-",
       "priority": "medium",
-      "column": "done",
+      "column": "planned",
       "tags": ["template"],
       "created": "2026-03-25"
     }
