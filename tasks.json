@@ -177,8 +177,8 @@
       "id": "bwcg-020",
       "title": "Add Pixelfed template",
       "description": "-",
-      "priority": "planned",
-      "column": "low",
+      "priority": "low",
+      "column": "planned",
       "tags": ["template"],
       "created": "2026-03-25"
     },
@@ -186,8 +186,8 @@
       "id": "bwcg-021",
       "title": "Add N8N template",
       "description": "-",
-      "priority": "planned",
-      "column": "low",
+      "priority": "low",
+      "column": "planned",
       "tags": ["template"],
       "created": "2026-03-25"
     },
@@ -195,8 +195,8 @@
       "id": "bwcg-022",
       "title": "Add ClassicPress template",
       "description": "-",
-      "priority": "planned",
-      "column": "low",
+      "priority": "low",
+      "column": "planned",
       "tags": ["template"],
       "created": "2026-03-25"
     },
@@ -204,8 +204,8 @@
       "id": "bwcg-023",
       "title": "Add Joomla template",
       "description": "-",
-      "priority": "planned",
-      "column": "low",
+      "priority": "low",
+      "column": "planned",
       "tags": ["template"],
       "created": "2026-03-25"
     },
@@ -213,8 +213,8 @@
       "id": "bwcg-024",
       "title": "Add Mautic template",
       "description": "-",
-      "priority": "planned",
-      "column": "low",
+      "priority": "low",
+      "column": "planned",
       "tags": ["template"],
       "created": "2026-03-25"
     },
@@ -222,8 +222,8 @@
       "id": "bwcg-025",
       "title": "Add Mattermost template",
       "description": "-",
-      "priority": "planned",
-      "column": "low",
+      "priority": "low",
+      "column": "planned",
       "tags": ["template"],
       "created": "2026-03-25"
     },
@@ -231,8 +231,8 @@
       "id": "bwcg-026",
       "title": "Add Cells by Pudio template",
       "description": "-",
-      "priority": "planned",
-      "column": "low",
+      "priority": "low",
+      "column": "planned",
       "tags": ["template"],
       "created": "2026-03-25"
     }
