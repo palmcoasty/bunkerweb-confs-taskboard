@@ -52,7 +52,7 @@
       "title": "Add Gitea template",
       "description": "Create a BunkerWeb template for Gitea, a lightweight self-hosted Git service. Includes SSH passthrough notes, webhook endpoint configuration, and appropriate max upload size for repository pushes.",
       "priority": "high",
-      "column": "planned",
+      "column": "inprogress",
       "tags": ["template"],
       "created": "2026-03-13"
     },
@@ -61,7 +61,7 @@
       "title": "Add Virtualmin template",
       "description": "Create a BunkerWeb template for Virtualmin web hosting control panel. Covers SSL handling, admin interface access controls, and the Webmin sub-panel proxying.",
       "priority": "low",
-      "column": "planned",
+      "column": "inprogress",
       "tags": ["template"],
       "created": "2026-03-13"
     },
@@ -70,7 +70,7 @@
       "title": "Add Webmin template",
       "description": "Create a BunkerWeb template for Webmin system administration panel. Includes appropriate security headers, admin access restrictions, and HTTPS redirect handling.",
       "priority": "low",
-      "column": "planned",
+      "column": "inprogress",
       "tags": ["template"],
       "created": "2026-03-13"
     },
