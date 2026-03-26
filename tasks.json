@@ -181,6 +181,15 @@
       "column": "low",
       "tags": ["template"],
       "created": "2026-03-25"
+    },
+    {
+      "id": "bwcg-021",
+      "title": "Add N8N template",
+      "description": "-",
+      "priority": "planned",
+      "column": "low",
+      "tags": ["template"],
+      "created": "2026-03-25"
     }
   ]
 }
