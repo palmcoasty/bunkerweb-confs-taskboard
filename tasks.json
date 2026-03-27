@@ -50,7 +50,7 @@
     {
       "id": "bwcg-006",
       "title": "Add Gitea template",
-      "description": "Create a BunkerWeb template for Gitea, a lightweight self-hosted Git service. Includes SSH passthrough notes, webhook endpoint configuration, and appropriate max upload size for repository pushes.",
+      "description": "Create a BunkerWeb template for Gitea, a lightweight self-hosted Git service. Includes SSH passthrough notes, webhook endpoint configuration, and appropriate max upload size for repository pushes. ### Basic Template Established running and reliability tests still required to be performed. ###",
       "priority": "high",
       "column": "inprogress",
       "tags": ["template"],
@@ -59,7 +59,7 @@
     {
       "id": "bwcg-007",
       "title": "Add Virtualmin template",
-      "description": "Create a BunkerWeb template for Virtualmin web hosting control panel. Covers SSL handling, admin interface access controls, and the Webmin sub-panel proxying.",
+      "description": "Create a BunkerWeb template for Virtualmin web hosting control panel. Covers SSL handling, admin interface access controls, and the Webmin sub-panel proxying. ### Basic Template Established running and reliability tests still required to be performed. ###",
       "priority": "low",
       "column": "inprogress",
       "tags": ["template"],
@@ -68,7 +68,7 @@
     {
       "id": "bwcg-008",
       "title": "Add Webmin template",
-      "description": "Create a BunkerWeb template for Webmin system administration panel. Includes appropriate security headers, admin access restrictions, and HTTPS redirect handling.",
+      "description": "Create a BunkerWeb template for Webmin system administration panel. Includes appropriate security headers, admin access restrictions, and HTTPS redirect handling. ### Basic Template Established running and reliability tests still required to be performed. ###",
       "priority": "low",
       "column": "inprogress",
       "tags": ["template"],
@@ -77,7 +77,7 @@
     {
       "id": "bwcg-009",
       "title": "Add Openfire Server template",
-      "description": "-",
+      "description": "- ### Basic Template Established running and reliability tests still required to be performed. ###",
       "priority": "medium",
       "column": "inprogress",
       "tags": ["template"],
