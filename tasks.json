@@ -149,7 +149,7 @@
     {
       "id": "bwcg-017",
       "title": "Add DocuSeal template",
-      "description": "-",
+      "description": "- ### Basic Template Established running and reliability tests still required to be performed. ###",
       "priority": "medium",
       "column": "inprogress",
       "tags": ["template"],
