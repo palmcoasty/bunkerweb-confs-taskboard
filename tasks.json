@@ -167,7 +167,7 @@
     {
       "id": "bwcg-019",
       "title": "Add Misskey template",
-      "description": "-",
+      "description": "- ### Not Planned till late 2026 ###",
       "priority": "low",
       "column": "planned",
       "tags": ["template"],
@@ -212,7 +212,7 @@
     {
       "id": "bwcg-024",
       "title": "Add Mautic template",
-      "description": "-",
+      "description": "- ### Not Planned till late 2026 ###",
       "priority": "low",
       "column": "planned",
       "tags": ["template"],
@@ -230,7 +230,7 @@
     {
       "id": "bwcg-026",
       "title": "Add Cells by Pudio template",
-      "description": "-",
+      "description": "- ### Not Planned till late 2026 ###",
       "priority": "low",
       "column": "planned",
       "tags": ["template"],
@@ -248,7 +248,7 @@
     {
       "id": "bwcg-028",
       "title": "Add PeerTube template",
-      "description": "-",
+      "description": "- ### Not Planned till late 2026 ###",
       "priority": "low",
       "column": "planned",
       "tags": ["template"],
@@ -257,7 +257,7 @@
     {
       "id": "bwcg-029",
       "title": "Add Roundcube template",
-      "description": "-",
+      "description": "- ### Not Planned till late 2026 ###",
       "priority": "low",
       "column": "planned",
       "tags": ["template"],
