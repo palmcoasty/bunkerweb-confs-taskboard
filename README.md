@@ -91,6 +91,42 @@ Common conventions used in this project:
 
 ---
 
+## Inline status markers
+
+Any task description can include an **inline status note** by wrapping text between `###` markers. The board strips the markers and renders the enclosed text as an animated amber badge directly on the card — useful for surfacing blockers or current progress without changing the main description.
+
+**Syntax:**
+
+```
+"description": "Main description text. - ### Status note shown as animated badge. ###"
+```
+
+**Example:**
+
+```json
+{
+  "id":          "bwcg-001",
+  "title":       "Add Synapse template",
+  "description": "Create a BunkerWeb template for Synapse (Matrix homeserver). Needs federation endpoint proxying, WebSocket support for the client-server API, and correct headers for the .well-known discovery routes. - ### Currently stuck to get livekit reliably running for video and audio calls. ###",
+  "priority":    "high",
+  "column":      "blocked",
+  "tags":        ["template"],
+  "created":     "2026-03-13"
+}
+```
+
+The card will display:
+- The main description text (without the `###` section)
+- An animated pulsing amber badge reading: *Currently stuck to get livekit reliably running for video and audio calls.*
+
+**Notes:**
+- The `###` markers and everything between them are never shown as raw text.
+- Only one `### ... ###` block per description is supported; the first match is used.
+- Tasks without any `### ... ###` in their description are completely unaffected.
+- The status badge is intentionally eye-catching — best used for active blockers or important progress notes, not as a permanent part of the description.
+
+---
+
 ## Workflow example
 
 ### Starting work on a task
@@ -104,6 +140,13 @@ Common conventions used in this project:
 ```json
 "column": "blocked",
 "description": "Waiting for upstream PR #42 to be merged before this can proceed."
+```
+
+### Task is blocked with a status note
+
+```json
+"column": "blocked",
+"description": "Waiting for upstream PR #42 to be merged before this can proceed. - ### PR is open, awaiting maintainer review since 2026-03-20. ###"
 ```
 
 ### Task is done
@@ -140,6 +183,7 @@ Common conventions used in this project:
 | Board shows no tasks | JSON syntax error | Validate with [jsonlint.com](https://jsonlint.com) |
 | Task stuck in wrong column | Wrong `column` value | Check spelling — valid values: `planned`, `next`, `inprogress`, `blocked`, `done` |
 | Tag badge missing | `tags` is `[]` or first element is empty | Add at least one non-empty string to `tags` |
+| Status markers showing as raw text | Mismatched `###` | Ensure both the opening and closing `###` are present |
 
 ---
 
