@@ -1,3 +1,4 @@
+
 <!DOCTYPE html>
 <html lang="en">
 <head>
@@ -349,6 +350,35 @@
       margin-left: auto;
     }
     .task-date { font-size: 10px; color: var(--text-muted); margin-left: auto; }
+
+    /* ── STATUS BADGE (### ... ### in description) ── */
+    .task-status {
+      font-size: 10px;
+      font-weight: 600;
+      color: #f59e0b;
+      background: rgba(245,158,11,0.08);
+      border: 1px solid rgba(245,158,11,0.35);
+      border-radius: var(--radius-sm);
+      padding: 3px 7px;
+      margin-bottom: 6px;
+      display: flex;
+      align-items: center;
+      gap: 5px;
+      line-height: 1.4;
+      word-break: break-word;
+    }
+    .task-status-dot {
+      width: 6px;
+      height: 6px;
+      border-radius: 50%;
+      background: #f59e0b;
+      flex-shrink: 0;
+      animation: statusPulse 1.6s ease-in-out infinite;
+    }
+    @keyframes statusPulse {
+      0%, 100% { opacity: 1; box-shadow: 0 0 0 0 rgba(245,158,11,0.5); }
+      50%       { opacity: 0.5; box-shadow: 0 0 0 4px rgba(245,158,11,0); }
+    }
 
     .col-empty {
       font-size: 11px;
@@ -963,7 +993,8 @@ function renderCard(task) {
   const pLabels = { low: t('prioLow'), medium: t('prioMedium'), high: t('prioHigh') };
   const trans     = (lang !== 'en' && task._trans && task._trans[lang]) || null;
   const cardTitle = trans ? trans.title : task.title;
-  const cardDesc  = trans ? trans.desc  : task.desc;
+  const rawDesc   = trans ? trans.desc  : task.desc;
+  const { plain: cardDesc, status: cardStatus } = parseStatus(rawDesc);
   const _cd = task.created
     ? (typeof task.created === 'string'
         ? new Date(task.created.includes('T') ? task.created : task.created + 'T00:00:00')
@@ -976,6 +1007,7 @@ function renderCard(task) {
       <div class="task-title">${escHtml(cardTitle)}</div>
     </div>
     ${cardDesc ? `<div class="task-desc">${escHtml(cardDesc)}</div>` : ''}
+    ${cardStatus ? `<div class="task-status"><span class="task-status-dot"></span>${escHtml(cardStatus)}</div>` : ''}
     <div class="task-footer">
       <span class="priority-badge priority-${task.priority}">${pLabels[task.priority] || task.priority}</span>
       ${task.tag ? `<span class="task-tag">${escHtml(task.tag)}</span>` : ''}
@@ -1143,6 +1175,17 @@ function dismissToast(id) {
    UTILS
 ══════════════════════════════════════════ */
 function uid() { return Math.random().toString(36).slice(2,9) + Date.now().toString(36); }
+
+/* Split description into plain text + ### status ### sections */
+function parseStatus(desc) {
+  if (!desc) return { plain: '', status: '' };
+  const match = desc.match(/###(.+?)###/s);
+  if (!match) return { plain: desc, status: '' };
+  const status = match[1].trim();
+  const plain  = desc.replace(/###.+?###/s, '').replace(/\s*-\s*$/, '').trim();
+  return { plain, status };
+}
+
 function escHtml(s) {
   if (!s) return '';
   return String(s).replace(/&/g,'&amp;').replace(/</g,'&lt;').replace(/>/g,'&gt;').replace(/"/g,'&quot;');
