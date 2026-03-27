@@ -252,7 +252,16 @@
       "priority": "low",
       "column": "planned",
       "tags": ["template"],
-      "created": "2026-03-25"
+      "created": "2026-03-26"
+    },
+    {
+      "id": "bwcg-029",
+      "title": "Add Roundcube template",
+      "description": "-",
+      "priority": "low",
+      "column": "planned",
+      "tags": ["template"],
+      "created": "2026-03-26"
     }
   ]
 }
