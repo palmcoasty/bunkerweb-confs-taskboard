@@ -240,10 +240,19 @@
       "id": "bwcg-027",
       "title": "Add Yourls template",
       "description": "-",
-      "priority": "low",
+      "priority": "medium",
       "column": "planned",
       "tags": ["template"],
       "created": "2026-03-26"
+    },
+    {
+      "id": "bwcg-028",
+      "title": "Add PeerTube template",
+      "description": "-",
+      "priority": "low",
+      "column": "planned",
+      "tags": ["template"],
+      "created": "2026-03-25"
     }
   ]
 }
