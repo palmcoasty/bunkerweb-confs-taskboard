@@ -5,9 +5,9 @@
     {
       "id": "bwcg-001",
       "title": "Add Synapse template",
-      "description": "Create a BunkerWeb template for Synapse (Matrix homeserver). Needs federation endpoint proxying, WebSocket support for the client-server API, and correct headers for the .well-known discovery routes. - ### Status: Currently stuck to get livekit reliably running for video and audio calls. ###",
+      "description": "Create a BunkerWeb template for Synapse (Matrix homeserver). Needs federation endpoint proxying, WebSocket support for the client-server API, and correct headers for the .well-known discovery routes. - ### Status: Livekit Video and Audio Support is being tested with the current config. ###",
       "priority": "high",
-      "column": "blocked",
+      "column": "inprogress",
       "tags": ["template"],
       "created": "2026-03-13"
     },
