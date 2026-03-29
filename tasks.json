@@ -262,6 +262,15 @@
       "column": "planned",
       "tags": ["template"],
       "created": "2026-03-26"
+    },
+    {
+      "id": "bwcg-030",
+      "title": "Add PiHole template",
+      "description": "Note: RoyalGuard Mentioned redirection doesn't work as expected behind bunkerweb.",
+      "priority": "high",
+      "column": "next",
+      "tags": ["template"],
+      "created": "2026-03-29"
     }
   ]
 }
