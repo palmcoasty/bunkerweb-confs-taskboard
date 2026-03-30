@@ -275,7 +275,7 @@
     {
       "id": "bwcg-031",
       "title": "Add OPNsense template",
-      "description",
+      "description":",
       "priority": "low",
       "column": "planned",
       "tags": ["template"],
