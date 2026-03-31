@@ -6,7 +6,7 @@
       "id": "bwcg-001",
       "title": "Add Synapse template",
       "description": "Create a BunkerWeb template for Synapse (Matrix homeserver). Needs federation endpoint proxying, WebSocket support for the client-server API, and correct headers for the .well-known discovery routes. - ### Status: Livekit Video and Audio Support is being tested with the current config. Currently unable to do more testing due to isp limitations. Inbound port 7881 conections are being blocked by isp edge. ###",
-      "priority": "blocked",
+      "priority": "high",
       "column": "blocked",
       "tags": ["template"],
       "created": "2026-03-13"
