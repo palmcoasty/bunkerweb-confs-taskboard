@@ -280,6 +280,15 @@
       "column": "planned",
       "tags": ["template"],
       "created": "2026-03-29"
-    }
+    },
+    {
+      "id": "bwcg-032",
+      "title": "Add Sogo template",
+      "description": "- ### Not Planned till late 2026 ###",
+      "priority": "low",
+      "column": "planned",
+      "tags": ["template"],
+      "created": "2026-03-26"
+    },
   ]
 }
