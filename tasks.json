@@ -289,6 +289,24 @@
       "column": "planned",
       "tags": ["template"],
       "created": "2026-03-30"
+    },
+    {
+      "id": "bwcg-033",
+      "title": "Add Idrac 8 template",
+      "description": "- ### Not Planned till early 2027 ###",
+      "priority": "high",
+      "column": "planned",
+      "tags": ["template"],
+      "created": "2026-04-01"
+    },
+    {
+      "id": "bwcg-034",
+      "title": "Add Idrac 9 template",
+      "description": "- ### Not Planned till early 2027 ###",
+      "priority": "high",
+      "column": "planned",
+      "tags": ["template"],
+      "created": "2026-04-01"
     }
   ]
 }
