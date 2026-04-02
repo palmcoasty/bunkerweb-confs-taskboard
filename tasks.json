@@ -307,6 +307,15 @@
       "column": "planned",
       "tags": ["template"],
       "created": "2026-04-01"
+    },
+    {
+      "id": "bwcg-035",
+      "title": "Add Roadmap by ploi template",
+      "description": "- ### Not Planned till early 2027 ###",
+      "priority": "low",
+      "column": "planned",
+      "tags": ["template"],
+      "created": "2026-04-01"
     }
   ]
 }
