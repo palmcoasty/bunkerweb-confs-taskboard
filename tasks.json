@@ -316,6 +316,15 @@
       "column": "planned",
       "tags": ["template"],
       "created": "2026-04-02"
+    },
+    {
+      "id": "bwcg-036",
+      "title": "Add Hi.Events template",
+      "description": "- ### Not Planned till late 2026 ###",
+      "priority": "low",
+      "column": "planned",
+      "tags": ["template"],
+      "created": "2026-04-07"
     }
   ]
 }
